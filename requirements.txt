@@ -1,5 +1,7 @@
 numpy
-matplotlib
+matplotlib.pyplot
 requests
 re
 datetime
+pandas
+urllib.request
