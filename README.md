@@ -32,20 +32,37 @@ traitlets : 5.0.5
 
 
 ### How to Run the Notebooks  
-A Python environment is required to run the two Jupyter notebooks containing the bulk of the submission for this assessment. One possible suggestion is to first install Anaconda on your machine and then open the notebooks in Jupyter Lab as per the steps below:  
-- Download Anaconda from ...  
+A Python environment is required to run the two Jupyter notebooks containing the bulk of the submission for this assessment. One possible suggestion is to first install Anaconda on your machine, download the two notebooks and then open them in Jupyter Lab as per the steps below:  
+- Download Anaconda from https://www.anaconda.com/products/individual  
 - Install the package  
+- Download the two notebooks (cao.ipynb & pyplot.ipynb) from this Github repository and save to your local machine  
 - Open the command line interface (CLI) on your machine - on Windows, open the Command Prompt tool by selecting Start, searching "cmd" and selecting it from the list. On a Mac, click the Launchpad icon in the Dock, type "Terminal" in the search field, then click Terminal  
 - Navigate to the folder containing the Jupyter notebooks on the CLI using the cd (Change Directory) command  
-- Once in the correct folder, enter "jupyter lab" to launch the program (note that although Jupter launches in your browser, it is running on your local machine)  
+- Once in the correct folder, enter command "jupyter lab" to launch the program (note that although Jupter launches in your browser, it is running on your local machine)  
 - Select the desired notebook from the left hand pane (cao.ipynb or pyplot.ipynb)  
 - **Important** Select "Kernel" at the top of the notebook and click "Restart Kernel and Run All Cells"  
-- To exit Jupyter once finished, close your browser, return to the CLI and click CTRL+C  
+- To exit Jupyter once finished, close your browser, return to the CLI and enter command CTRL+C  
 
 
 ### What's in the Notebooks?  
-CAO  
-Pyplot  
+**CAO Notebook**  
+To be completed  
+
+**Pyplot Notebook**  
+This Jupyter Notebook provides a clear and concise overview of the Matplotlib.Pyplot package in Python, as well as an in-depth explanation of the following plots from the package:    
+1. Pie Charts  
+2. Scatter Plots  
+3. Stack Plots  
+
+In each case, I provide an explanation of what each of these plots are, what they are used for, the syntax and parameters required to plot them, and a practical example of each plot using real world data.  
+
+A different style is used for each plot. Note that you can check what styles are available and change the styles on any of the plots using the following commands: 
+
+``# To check what styles are available``  
+``print(plt.style.available)``  
+
+``# To change the style``  
+``plt.style.use('style_name')``  
 
 
 ### Results  
@@ -60,10 +77,46 @@ I found how to check the encoding declaration on the CAO website at w3.org [1] a
 
 08.11 - checked the length of the 2021 course titles in Excel and the maximum seems to be 53 characters. I've refined my RE to match this and am happy now that it is pulling in the data I want and splitting it out into 4 columns, so I should be good to go.
 
-# References  
+### References & Data Sources  
+**CAO Notebook**  
 [1] https://www.w3.org/International/questions/qa-html-encoding-declarations  
 [2] http://validator.w3.org/i18n-checker/  
 [3] https://docs.python.org/3/library/re.html  
 [4] https://blog.finxter.com/python-regex-start-of-line-and-end-of-line/  
 [5] https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial  
 [6] https://stackoverflow.com/questions/34091877/how-to-add-header-row-to-a-pandas-dataframe  
+
+**Pyplot Notebook**  
+[1] https://dzone.com/articles/types-of-matplotlib-in-python  
+[2] https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html  
+[3] https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pie.html  
+[4] https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html    
+[5] https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html  
+[6] https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.stackplot.html  
+[7] https://matplotlib.org/stable/tutorials/introductory/pyplot.html  
+[8] https://realpython.com/visualizing-python-plt-scatter/  
+[9] https://stackoverflow.com/questions/6170246/how-do-i-use-matplotlib-autopct  
+[10] https://stackabuse.com/matplotlib-stack-plot-tutorial-and-examples/  
+[11] https://towardsdatascience.com/scatterplot-creation-and-visualisation-with-matplotlib-in-python-7bca2a4fa7cf  
+[12] https://towardsdatascience.com/a-practical-summary-of-matplotlib-in-13-python-snippets-4d07f0011bdf  
+[13] https://www.tutorialspoint.com/matplotlib/matplotlib_pie_chart.htm  
+[14] https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/  
+[15] https://www.geeksforgeeks.org/matplotlib-pyplot-scatter-in-python/  
+[16] https://www.geeksforgeeks.org/matplotlib-pyplot-stackplot-in-python/  
+[17] https://www.geeksforgeeks.org/plot-a-pie-chart-in-python-using-matplotlib/  
+[18] https://www.geeksforgeeks.org/pyplot-in-matplotlib/  
+[19] https://www.geeksforgeeks.org/python-matplotlib-an-overview/  
+[20] https://www.python-graph-gallery.com/stacked-area-plot/  
+[21] https://www.w3schools.com/python/matplotlib_intro.asp  
+
+_**Pie Chart Data**_  
+https://covid-19.geohive.ie/pages/vaccinations  
+
+_**Scatter Plot Data**_  
+https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/639388c2cbc2120a14dcf466e85730eb8be498bb/iris.csv  
+
+_**Stack Plot Data**_  
+https://stats.beepbeep.ie/  
+
+# End  
+***
