@@ -1,45 +1,45 @@
 # Fundamentals of Data Analysis Assessment  
 ***  
-**Student Name: Gillian Kane-McLoughlin  
-**Student Number: G00398258  
+**Student Name:** Gillian Kane-McLoughlin  | **Student Number:** G00398258  
 
 
 ### Description  
-This repository will contain all components of the assessment for the Fundamentals of Data Analysis module for Winter 2021. The contents are as follows:  
+This repository will contain all components of the assessment for the Fundamentals of Data Analysis module for Winter 2021.    
+The contents are as follows:  
 - **cao.ipynb** - this is the Jupyter notebook for the CAO points piece of the assessment  
 - **pyplot.ipynb** - this is the Jupyter notebook for the pyplot piece of the assessment  
-- README.md (which you are currently reading)
-- requirements.txt - text file listing all the Python modules used in the two notebooks  
-- .gitignore (Python) file
+- README.md (which you are currently reading)  
+- requirements.txt - text file listing all the Python modules & files used in the two notebooks  
+- .gitignore (Python) file  
 - Data folder containing data files used and generated over the course of completing this assessment  
 
 
 ### Software Information
-The code for this assignment was written in Python (version 3.8.8) and ran in Jupyter Lab.  
+The code for this assignment was written in Python (version 3.8.8) and ran in Jupyter Lab.    
 
-Jupyter Version:
-jupyter core : 4.7.1
-jupyter-notebook : 6.3.0
-qtconsole : 5.0.3
-ipython : 7.22.0
-ipykernel : 5.3.4
-jupyter client : 6.1.12
-jupyter lab : 3.0.14
-nbconvert : 6.0.7
-ipywidgets : 7.6.3
-nbformat : 5.1.3
-traitlets : 5.0.5  
+Jupyter Version:  
+jupyter core : 4.7.1  
+jupyter-notebook : 6.3.0  
+qtconsole : 5.0.3  
+ipython : 7.22.0  
+ipykernel : 5.3.4  
+jupyter client : 6.1.12  
+jupyter lab : 3.0.14  
+nbconvert : 6.0.7  
+ipywidgets : 7.6.3  
+nbformat : 5.1.3  
+traitlets : 5.0.5   
 
 
 ### How to Run the Notebooks  
 A Python environment is required to run the two Jupyter notebooks containing the bulk of the submission for this assessment. One possible suggestion is to first install Anaconda on your machine and then open the notebooks in Jupyter Lab as per the steps below:  
-- Download Anaconda from ...
-- Install the package
-- Open the command line interface (CLI) on your machine - on Windows, open the Command Prompt tool by selecting Start, searching "cmd" and selecting it from the list. On a Mac, click the Launchpad icon in the Dock, type "Terminal" in the search field, then click Terminal
-- Navigate to the folder containing the Jupyter notebooks on the CLI using the cd (Change Directory) command
-- Once in the correct folder, enter "jupyter lab" to launch the program (note that although Jupter launches in your browser, it is running on your local machine)
-- Select "Kernel" at the top of the the cao.ipynb notebook and click "Restart and Run All Cells"
-- Repeat the step above for the pyplot.ipynb notebook
+- Download Anaconda from ...  
+- Install the package  
+- Open the command line interface (CLI) on your machine - on Windows, open the Command Prompt tool by selecting Start, searching "cmd" and selecting it from the list. On a Mac, click the Launchpad icon in the Dock, type "Terminal" in the search field, then click Terminal  
+- Navigate to the folder containing the Jupyter notebooks on the CLI using the cd (Change Directory) command  
+- Once in the correct folder, enter "jupyter lab" to launch the program (note that although Jupter launches in your browser, it is running on your local machine)  
+- Select the desired notebook from the left hand pane (cao.ipynb or pyplot.ipynb)  
+- **Important** Select "Kernel" at the top of the notebook and click "Restart Kernel and Run All Cells"  
 - To exit Jupyter once finished, close your browser, return to the CLI and click CTRL+C  
 
 
