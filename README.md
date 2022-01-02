@@ -5,7 +5,8 @@
 
 ### Description  
 ***
-This repository will contain all components of the assessment for the Fundamentals of Data Analysis module for Winter 2021.    
+This repository will contain all components of the assessment for the Fundamentals of Data Analysis module for Winter 2021.  
+
 The contents are as follows:  
 - **cao.ipynb** - this is the Jupyter notebook for the CAO points piece of the assessment  
 - **pyplot.ipynb** - this is the Jupyter notebook for the pyplot piece of the assessment  
@@ -45,7 +46,7 @@ A Python environment is required to run the two Jupyter notebooks containing the
 - Navigate to the folder where the repository was cloned (above) on the CLI using the cd (Change Directory) command  
 - Once in the correct folder, enter command "jupyter lab" to launch the program (note that although Jupter launches in your browser, it is running on your local machine)  
 - Select the desired notebook from the left hand pane (cao.ipynb or pyplot.ipynb)  
-- **Important** Select "Kernel" at the top of the notebook and click "Restart Kernel and Run All Cells"  
+- **Important:** Select "Kernel" at the top of the notebook and click "Restart Kernel and Run All Cells"  
 - To exit Jupyter once finished, close your browser, return to the CLI and enter command CTRL+C  
 
 
@@ -57,10 +58,10 @@ This notebook contains an overview of how to load CAO points information from th
 The notebook is broken down into four sections:  
 - Section 1: Loading the CAO Points into Pandas Dataframes  
 - Section 2: Creating a Single CAO Points Dataframe Using Concat & Join  
-- Section 3: Creating a Function to Perform the Analysis  
+- Section 3: Defining a Function to Perform the Analysis  
 - Section 4: Analysing CAO Points  
 
-The results observed in Section 4 show an increase in overall CAO points in 2021 compared to 2020, both in terms of the courses with the highest points and in both the mean and medium points ranges, as shown in the plots.  
+The results observed in Section 4 show an increase in overall CAO points in 2021 compared to 2020, both in terms of the courses with the highest points and in both the mean and medium points ranges, as shown in the plots generated.  
 
 Throughout the course of compiling this notebook I faced many difficulties, initially with loading the points into dataframes, but particularly in working with the CAO points data, as the information provided was quite messy and not easily comparable. I attempted to tidy this data up as much as possible, but I have to acknowledge that in doing this I did lose some data, resulting in a less accurate analysis. However, despite these difficulties, the analysis undertaken did show an overall increase in CAO points in 2021 across all the measurements observed, which is what I expected to see at the outset of this project.  
 
