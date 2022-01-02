@@ -8,10 +8,10 @@
 This repository will contain all components of the assessment for the Fundamentals of Data Analysis module for Winter 2021.  
 
 The contents are as follows:  
-- **cao.ipynb** - this is the Jupyter notebook for the CAO points piece of the assessment  
-- **pyplot.ipynb** - this is the Jupyter notebook for the pyplot piece of the assessment  
+- cao.ipynb - this is the Jupyter notebook for the CAO points piece of the assessment  
+- pyplot.ipynb - this is the Jupyter notebook for the Pyplot piece of the assessment  
 - this README.md file  
-- requirements.txt - text file listing all the Python modules & libraries used in the two notebooks  
+- requirements.txt - text file listing all the Python modules & libraries required to run the two notebooks  
 - a .gitignore (Python) file  
 - data folder containing files used and generated over the course of completing this assessment  
 
@@ -53,7 +53,7 @@ A Python environment is required to run the two Jupyter notebooks containing the
 ### What's in the Notebooks? 
 ***
 **CAO Notebook**  
-This notebook contains an overview of how to load CAO points information from the CAO website into a pandas data frame, a detailed comparison of CAO points in 2019, 2020, and 2021 and some visualisations to enhance the viewer experience.    
+This Jupyter notebook contains an overview of how to load CAO points information from the CAO website into a pandas data frame, a detailed comparison of level 8 CAO points in 2019, 2020, and 2021 and some plots to enhance the viewer experience.    
 
 The notebook is broken down into four sections:  
 - Section 1: Loading the CAO Points into Pandas Dataframes  
@@ -83,7 +83,7 @@ A different style is used for each plot. Note that you can check what styles are
 
 ### References & Data Sources  
 ***
-**CAO Notebook**  
+**_CAO Notebook_**  
 [1] https://blog.finxter.com/python-regex-start-of-line-and-end-of-line/  
 [2] https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial  
 [3] https://datatofish.com/dropna/  
@@ -105,7 +105,7 @@ _**CAO Points Data**_
 2020: https://www.cao.ie/index.php?page=points&p=2020&bb=points  
 2021: https://www.cao.ie/index.php?page=points&p=2021&bb=points  
 
-**Pyplot Notebook**  
+**_Pyplot Notebook_**  
 [1] https://dzone.com/articles/types-of-matplotlib-in-python  
 [2] https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html  
 [3] https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pie.html  
