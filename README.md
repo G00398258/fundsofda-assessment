@@ -4,17 +4,19 @@
 
 
 ### Description  
+***
 This repository will contain all components of the assessment for the Fundamentals of Data Analysis module for Winter 2021.    
 The contents are as follows:  
 - **cao.ipynb** - this is the Jupyter notebook for the CAO points piece of the assessment  
 - **pyplot.ipynb** - this is the Jupyter notebook for the pyplot piece of the assessment  
-- README.md (which you are currently reading)  
-- requirements.txt - text file listing all the Python modules & files used in the two notebooks  
-- .gitignore (Python) file  
-- Data folder containing data files used and generated over the course of completing this assessment  
+- this README.md file  
+- requirements.txt - text file listing all the Python modules & libraries used in the two notebooks  
+- a .gitignore (Python) file  
+- data folder containing files used and generated over the course of completing this assessment  
 
 
 ### Software Information
+***
 The code for this assignment was written in Python (version 3.8.8) and ran in Jupyter Lab.    
 
 Jupyter Version:  
@@ -30,23 +32,37 @@ ipywidgets : 7.6.3
 nbformat : 5.1.3  
 traitlets : 5.0.5   
 
+Please see the requirements.txt file in this repository for information on the modules and libraries used.  
 
-### How to Run the Notebooks  
-A Python environment is required to run the two Jupyter notebooks containing the bulk of the submission for this assessment. One possible suggestion is to first install Anaconda on your machine, download the two notebooks and then open them in Jupyter Lab as per the steps below:  
+
+### How to Run the Notebooks 
+***
+A Python environment is required to run the two Jupyter notebooks containing the bulk of the submission for this assessment. To ensure that the notebooks run correctly, I would advise that you first install Anaconda on your machine, clone this repository to your device and then open and run the notebooks in Jupyter Lab as per the steps below:  
 - Download Anaconda from https://www.anaconda.com/products/individual  
 - Install the package  
-- Download the two notebooks (cao.ipynb & pyplot.ipynb) from this Github repository and save to your local machine  
+- Clone this repository to your machine as per the steps outlined [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)    
 - Open the command line interface (CLI) on your machine - on Windows, open the Command Prompt tool by selecting Start, searching "cmd" and selecting it from the list. On a Mac, click the Launchpad icon in the Dock, type "Terminal" in the search field, then click Terminal  
-- Navigate to the folder containing the Jupyter notebooks on the CLI using the cd (Change Directory) command  
+- Navigate to the folder where the repository was cloned (above) on the CLI using the cd (Change Directory) command  
 - Once in the correct folder, enter command "jupyter lab" to launch the program (note that although Jupter launches in your browser, it is running on your local machine)  
 - Select the desired notebook from the left hand pane (cao.ipynb or pyplot.ipynb)  
 - **Important** Select "Kernel" at the top of the notebook and click "Restart Kernel and Run All Cells"  
 - To exit Jupyter once finished, close your browser, return to the CLI and enter command CTRL+C  
 
 
-### What's in the Notebooks?  
+### What's in the Notebooks? 
+***
 **CAO Notebook**  
-To be completed  
+This notebook contains an overview of how to load CAO points information from the CAO website into a pandas data frame, a detailed comparison of CAO points in 2019, 2020, and 2021 and some visualisations to enhance the viewer experience.    
+
+The notebook is broken down into four sections:  
+- Section 1: Loading the CAO Points into Pandas Dataframes  
+- Section 2: Creating a Single CAO Points Dataframe Using Concat & Join  
+- Section 3: Creating a Function to Perform the Analysis  
+- Section 4: Analysing CAO Points  
+
+The results observed in Section 4 show an increase in overall CAO points in 2021 compared to 2020, both in terms of the courses with the highest points and in both the mean and medium points ranges, as shown in the plots.  
+
+Throughout the course of compiling this notebook I faced many difficulties, initially with loading the points into dataframes, but particularly in working with the CAO points data, as the information provided was quite messy and not easily comparable. I attempted to tidy this data up as much as possible, but I have to acknowledge that in doing this I did lose some data, resulting in a less accurate analysis. However, despite these difficulties, the analysis undertaken did show an overall increase in CAO points in 2021 across all the measurements observed, which is what I expected to see at the outset of this project.  
 
 **Pyplot Notebook**  
 This Jupyter Notebook provides a clear and concise overview of the Matplotlib.Pyplot package in Python, as well as an in-depth explanation of the following plots from the package:    
@@ -64,27 +80,29 @@ A different style is used for each plot. Note that you can check what styles are
 ``# To change the style``  
 ``plt.style.use('style_name')``  
 
-
-### Results  
-CAO points up... down...  
-Can edit parameters in pyplot.ipynd and see the results...  
-
-
-### CAO Notebook  
-I found how to check the encoding declaration on the CAO website at w3.org [1] and used their Internationalization Checker [2] to confirm that I needed to decode the response with the expression line.decode('iso-8859-1').
-
-22/10 - manually checked the cao courses CSV file and I'm getting 949 courses, so some are not being captured by the code Ian used in the lectures. Trying to capture all courses with a different RE compilation. Researching the Python documentation [3] to find out how to do this.
-
-08.11 - checked the length of the 2021 course titles in Excel and the maximum seems to be 53 characters. I've refined my RE to match this and am happy now that it is pulling in the data I want and splitting it out into 4 columns, so I should be good to go.
-
 ### References & Data Sources  
+***
 **CAO Notebook**  
-[1] https://www.w3.org/International/questions/qa-html-encoding-declarations  
-[2] http://validator.w3.org/i18n-checker/  
-[3] https://docs.python.org/3/library/re.html  
-[4] https://blog.finxter.com/python-regex-start-of-line-and-end-of-line/  
-[5] https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial  
-[6] https://stackoverflow.com/questions/34091877/how-to-add-header-row-to-a-pandas-dataframe  
+[1] https://blog.finxter.com/python-regex-start-of-line-and-end-of-line/  
+[2] https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial  
+[3] https://datatofish.com/dropna/  
+[4] https://datatofish.com/replace-values-pandas-dataframe/  
+[5] https://discuss.analyticsvidhya.com/t/getting-typeerror-not-supported-between-instances-of-str-and-float/18535/19  
+[6] https://docs.python.org/3/library/re.html  
+[7] https://www.geeksforgeeks.org/how-to-convert-floats-to-strings-in-pandas-dataframe/  
+[8] https://www.geeksforgeeks.org/python-pandas-dataframe-drop_duplicates/  
+[9] https://www.kite.com/python/answers/how-to-replace-column-values-in-a-pandas-dataframe-in-python  
+[10] https://newbedev.com/pandas-converting-floats-to-strings-without-decimals  
+[11] https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html  
+[12] https://stackoverflow.com/questions/13035764/remove-pandas-rows-with-duplicate-indices  
+[13] https://stackoverflow.com/questions/18172851/deleting-dataframe-row-in-pandas-based-on-column-value  
+[14] http://validator.w3.org/i18n-checker/  
+[15] https://www.w3.org/International/questions/qa-html-encoding-declarations  
+
+_**CAO Points Data**_  
+2019: http://www.cao.ie/index.php?page=points&p=2019  
+2020: https://www.cao.ie/index.php?page=points&p=2020&bb=points  
+2021: https://www.cao.ie/index.php?page=points&p=2021&bb=points  
 
 **Pyplot Notebook**  
 [1] https://dzone.com/articles/types-of-matplotlib-in-python  
